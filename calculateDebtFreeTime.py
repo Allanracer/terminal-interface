@@ -14,7 +14,7 @@ def calculate_debt_free_time_with_interest(loan_amount, monthly_repayment, inter
     if interest_rate < 0:
         raise ValueError("Interest rate cannot be negative.")
 
-    # Convert annual interest rate to monthly interest rate
+   # Convert annual interest rate to monthly interest rate
     monthly_interest_rate = interest_rate / 12
 
     months = 0
