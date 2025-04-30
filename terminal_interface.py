@@ -1,3 +1,4 @@
+import sys
 from calculateDebtFreeTime import calculate_debt_free_time_with_interest
 
 def start():
@@ -26,7 +27,7 @@ def om_programmet():
 def luk():
     """Funktion til at lukke programmet."""
     print("\nProgrammet lukkes. Tak for at bruge det!")
-    exit()
+    sys.exit()
 
 def main():
     """Hovedmenuen for programmet."""
